@@ -10,10 +10,14 @@
       <transition-group name="fade" class="flex flex-wrap my-4" tag="div">
         <FeaturedCard
           key="featured_post"
-          v-if="$page.featured.totalCount>0"
+          v-if="$page.featured.totalCount > 0"
           :records="$page.featured.edges"
         />
-        <CardItem v-for="{ node } of loadedPosts" :key="node.id" :record="node" />
+        <CardItem
+          v-for="{ node } of loadedPosts"
+          :key="node.id"
+          :record="node"
+        />
       </transition-group>
       <ClientOnly>
         <infinite-loading @infinite="infiniteHandler" spinner="spiral">
@@ -27,7 +31,7 @@
 
 <page-query>
   query($page: Int) {
-    featured: allBlog(limit: 4, filter: { featured: { eq: true } }, sortBy:"created") {
+    featured: allSectionPage(limit: 4, filter: { featured: { eq: true } }, sortBy:"created") {
       totalCount
       edges {
         node {
@@ -38,21 +42,15 @@
           timeToRead
           humanTime: created(format: "DD MMM YYYY")
           datetime: created
-          category {
+          section {
             id
             title
-            path
-          }
-          author {
-            id
-            name
-            image(width: 64, height: 64, fit: inside)
             path
           }
         }
       }
     }
-    entries: allBlog(perPage: 6, page: $page, sortBy:"created") @paginate {
+    entries: allSectionPage(perPage: 6, page: $page, sortBy:"created") @paginate {
       totalCount
       pageInfo {
         totalPages
@@ -68,15 +66,9 @@
           featured
           humanTime: created(format: "DD MMM YYYY")
           datetime: created
-          category {
+          section {
             id
             title
-            path
-          }
-          author {
-            id
-            name
-            image(width: 64, height: 64, fit: inside)
             path
           }
         }
@@ -101,18 +93,18 @@ import ContentHeader from "~/components/Partials/ContentHeader.vue";
 
 export default {
   metaInfo: {
-    title: "Hello, world!"
+    title: "Hello, world!",
   },
   components: {
     CardItem,
     FeaturedCard,
-    ContentHeader
+    ContentHeader,
   },
 
   data() {
     return {
       loadedPosts: [],
-      currentPage: 1
+      currentPage: 1,
     };
   },
   created() {
@@ -132,8 +124,8 @@ export default {
           $state.complete();
         }
       }
-    }
-  }
+    },
+  },
 };
 </script>
 

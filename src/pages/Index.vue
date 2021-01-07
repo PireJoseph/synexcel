@@ -1,26 +1,30 @@
 <template>
   <Layout>
-      <content-header 
-        :title="$static.metadata.siteName" 
-        :sub="$static.metadata.siteDescription"
-        image="phoenix-han-Nqdh0G8rdCc-unsplash.jpg">
-      </content-header>
+    <HomeHeader
+      :title="$static.metadata.siteName"
+      :sub="$static.metadata.siteDescription"
+    />
 
-      <div class="container mx-auto">
-          <div class="flex flex-wrap my-4">
+    <div class="container mx-auto">
+      <div class="flex flex-wrap my-4">
+        <FeaturedCard
+          v-if="$page.featured.totalCount > 0"
+          :records="$page.featured.edges"
+        />
 
-          <FeaturedCard v-if="$page.featured.totalCount>0" :records="$page.featured.edges"/>
-
-        
-          <CardItem v-for="edge in $page.entries.edges" :key="edge.node.id" :record="edge.node" />
-        </div>
+        <CardItem
+          v-for="edge in $page.entries.edges"
+          :key="edge.node.id"
+          :record="edge.node"
+        />
       </div>
+    </div>
   </Layout>
 </template>
 
 <page-query>
   query($page: Int) {
-    featured: allBlog(limit: 4, filter: { featured: { eq: true } }, sortBy:"created") {
+    featured: allSectionPage(limit: 4, filter: { featured: { eq: true } }, sortBy:"order") {
       totalCount
       edges {
         node {
@@ -31,21 +35,15 @@
           timeToRead
           humanTime: created(format: "DD MMM YYYY")
           datetime: created
-          category {
+          section {
             id
             title
-            path
-          }
-          author {
-            id
-            name
-            image(width: 64, height: 64, fit: inside)
             path
           }
         }
       }
     }
-    entries: allBlog(perPage: 24, page: $page, sortBy:"created") @paginate {
+    entries: allSectionPage(perPage: 24, page: $page, sortBy:"order") @paginate {
       totalCount
       pageInfo {
         totalPages
@@ -61,15 +59,9 @@
           featured
           humanTime: created(format: "DD MMM YYYY")
           datetime: created
-          category {
+          section {
             id
             title
-            path
-          }
-          author {
-            id
-            name
-            image(width: 64, height: 64, fit: inside)
             path
           }
         }
@@ -90,17 +82,16 @@ query {
 <script>
 import CardItem from "~/components/Content/CardItem.vue";
 import FeaturedCard from "~/components/Content/FeaturedCard.vue";
-import ContentHeader from "~/components/Partials/ContentHeader.vue";
-
+import HomeHeader from "~/components/Partials/HomeHeader.vue";
 
 export default {
   metaInfo: {
-    title: "Hello, world!"
+    title: "Accueil",
   },
   components: {
     CardItem,
     FeaturedCard,
-    ContentHeader
-  }
+    HomeHeader,
+  },
 };
 </script>

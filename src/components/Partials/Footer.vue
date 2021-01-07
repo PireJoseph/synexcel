@@ -1,40 +1,57 @@
 <template>
-  <div class="bg-gray-100 dark:bg-gray-900 text-black dark:text-gray-400 text-center text-sm">
+  <div
+    class="bg-gray-100 dark:bg-gray-900 text-black dark:text-gray-400 text-center text-sm"
+  >
     <div class="container mx-auto py-16">
       <div class="mb-4">
         <p>
-          Copyright {{ new Date().getFullYear() }} by {{ $static.metadata.siteName}} &middot; Powered by
-          <a
-            href="https://www.gridsome.org"
-            target="_blank"
-          >Gridsome</a>
+          Made with 🖤 by
+          <a href="https://www.josephpire.be" target="_blank">Joseph Pire</a>
         </p>
       </div>
       <div class="mb-4">
         <ul class="list-reset flex justify-center">
-          <li v-for="socialItem in $static.metadata.social" :key="socialItem.name" class="px-4">
-            <a :href="socialItem.link" target="_blank" :title="socialItem.name" class="hover:text-blue-500">
-              <font-awesome :icon="icon(socialItem.icon)" size="lg"></font-awesome>
+          <li
+            v-for="socialItem in $static.metadata.social"
+            :key="socialItem.name"
+            class="px-4"
+          >
+            <a
+              :href="socialItem.link"
+              target="_blank"
+              :title="socialItem.name"
+              class="hover:text-blue-500"
+            >
+              <font-awesome
+                :icon="icon(socialItem.icon)"
+                size="lg"
+              ></font-awesome>
             </a>
           </li>
         </ul>
       </div>
       <div class="mb-4">
         <ul class="list-reset flex justify-center">
-          <li v-for="navItem in $static.metadata.footerNavigation" :key="navItem.name" class="px-4">
+          <li
+            v-for="navItem in $static.metadata.footerNavigation"
+            :key="navItem.name"
+            class="px-4"
+          >
             <g-link
               :to="navItem.link"
               :title="navItem.name"
-              v-if="navItem.external!=true"
+              v-if="navItem.external != true"
               class="hover:text-blue-500"
-            >{{ navItem.name}}</g-link>
+              >{{ navItem.name }}</g-link
+            >
             <a
               :href="navItem.link"
               target="_blank"
               :title="navItem.name"
-              v-if="navItem.external==true"
+              v-if="navItem.external == true"
               class="hover:text-blue-500 "
-            >{{ navItem.name}}</a>
+              >{{ navItem.name }}</a
+            >
           </li>
         </ul>
       </div>
@@ -46,9 +63,9 @@
 export default {
   methods: {
     icon(icon) {
-      return ['fab', icon]
-    }
-  }
+      return ["fab", icon];
+    },
+  },
 };
 </script>
 

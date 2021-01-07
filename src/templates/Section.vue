@@ -1,14 +1,15 @@
 <template>
   <Layout>
     <content-header
-      :title="'# ' + $page.tag.title"
+      :title="$page.section.title"
+      :description="$page.section.description"
       :sub="subTitle"
     ></content-header>
 
     <div class="container mx-auto">
       <div class="flex flex-wrap my-4">
         <CardItem
-          v-for="edge in $page.tag.belongsTo.edges"
+          v-for="edge in $page.section.belongsTo.edges"
           :key="edge.node.id"
           :record="edge.node"
         />
@@ -16,11 +17,11 @@
 
       <div class="pagination flex justify-center mb-8">
         <Pagination
-          :baseUrl="$page.tag.path"
-          :currentPage="$page.tag.belongsTo.pageInfo.currentPage"
-          :totalPages="$page.tag.belongsTo.pageInfo.totalPages"
+          :baseUrl="$page.section.path"
+          :currentPage="$page.section.belongsTo.pageInfo.currentPage"
+          :totalPages="$page.section.belongsTo.pageInfo.totalPages"
           :maxVisibleButtons="5"
-          v-if="$page.tag.belongsTo.pageInfo.totalPages > 1"
+          v-if="$page.section.belongsTo.pageInfo.totalPages > 1"
         />
       </div>
     </div>
@@ -29,10 +30,11 @@
 
 <page-query>
   query($id: ID!, $page:Int) {
-    tag(id: $id) {
+    section(id: $id) {
       title
+      description
       path
-      belongsTo(perPage: 3, page: $page) @paginate {
+      belongsTo(perPage: 6, page: $page) @paginate {
         totalCount
         pageInfo {
           totalPages
@@ -76,17 +78,17 @@ export default {
   computed: {
     pageLabel: function() {
       var pluralize = require("pluralize");
-      return pluralize("page", this.$page.tag.belongsTo.totalCount);
+      return pluralize("page", this.$page.section.belongsTo.totalCount);
     },
     subTitle: function() {
-      return `Une collection de ${this.$page.tag.belongsTo.totalCount} ${
+      return `${this.$page.section.belongsTo.totalCount} ${
         this.pageLabel
-      }`;
+      } sont liées à cette section`;
     },
   },
   metaInfo() {
     return {
-      title: this.$page.tag.title,
+      title: this.$page.section.title,
     };
   },
 };

@@ -5,8 +5,8 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: "Synexcel",
-  siteDescription: "An open-source framework to generate awesome pages",
+  siteName: "SYNEXCEL",
+  siteDescription: "Synergie et excellence",
   plugins: [
     {
       use: "gridsome-plugin-tailwindcss",
@@ -48,23 +48,21 @@ module.exports = {
     {
       use: "@gridsome/source-filesystem",
       options: {
-        typeName: "Author",
-        path: "./content/author/*.md",
+        typeName: "Section",
+        path: "./content/section/*.md",
       },
     },
     {
       use: "@gridsome/source-filesystem",
       options: {
-        typeName: "Blog",
-        path: "./content/blog/**/*.md",
+        typeName: "SectionPage",
+        path: "./content/section-page/*.md",
         refs: {
-          author: "Author",
+          section: {
+            typeName: "Section",
+          },
           tags: {
             typeName: "Tag",
-            create: true,
-          },
-          category: {
-            typeName: "Category",
             create: true,
           },
         },
@@ -83,12 +81,15 @@ module.exports = {
         searchFields: ["title", "content"],
         collections: [
           {
-            typeName: "Blog",
-            indexName: "Blog",
-            fields: ["title", "category", "excerpt", "content"],
+            typeName: "SectionPage",
+            indexName: "SectionPage",
+            fields: ["title", "section", "excerpt", "content"],
           },
         ],
       },
+    },
+    {
+      use: "gridsome-plugin-svg",
     },
   ],
   transformers: {
@@ -110,33 +111,24 @@ module.exports = {
     },
   },
   templates: {
-    Blog: [
-      {
-        path: "/posts/:title",
-      },
-    ],
     CustomPage: [
       {
         path: "/:title",
-        component: "~/templates/CustomPage.vue",
-      },
-    ],
-    Category: [
-      {
-        path: "/category/:title",
-        component: "~/templates/Category.vue",
-      },
-    ],
-    Author: [
-      {
-        path: "/author/:name",
-        component: "~/templates/Author.vue",
       },
     ],
     Tag: [
       {
         path: "/tags/:title",
-        component: "~/templates/Tag.vue",
+      },
+    ],
+    SectionPage: [
+      {
+        path: "/pages/:title",
+      },
+    ],
+    Section: [
+      {
+        path: "/sections/:slug",
       },
     ],
   },

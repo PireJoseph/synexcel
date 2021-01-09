@@ -6,7 +6,7 @@ section: section1
 order: 1
 excerpt: Lorem markdownum aptos pes, Inachidos caput corrumpere! Vincere ferocia arva.
 created: 2019-01-10
-image: ./images/ingmar-hoogerhoud-lm91dJNPRS4-unsplash.jpg
+image: ../../static/uploads/ingmar-hoogerhoud-lm91dJNPRS4-unsplash.jpg
 image_caption: Photo by Josh Spires on Unsplash
 featured: true
 ---

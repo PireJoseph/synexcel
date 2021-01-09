@@ -1,6 +1,6 @@
 ---
 title: clubs et partenaires
-desciption: parascolaires, clubs et partenaires
+description: parascolaires, clubs et partenaires
 tags: clubs,
 section: section1
 order: 3

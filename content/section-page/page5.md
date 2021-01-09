@@ -1,6 +1,6 @@
 ---
 title: multisports et partenaires
-desciption: multisports, clubs et partenaires
+description: multisports, clubs et partenaires
 tags: talents, clubs, sports
 section: section1
 order: 5

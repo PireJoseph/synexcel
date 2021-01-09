@@ -1,6 +1,6 @@
 ---
 title: managemenent et carrière
-desciption: management et gestion de carriere
+description: management et gestion de carriere
 tags: sports, management, carriere
 section: section2
 order: 7

@@ -1,6 +1,6 @@
 ---
 title: laboratoire d'excellences
-desciption: laboratoire d'excellences
+description: laboratoire d'excellences
 tags: sports, management
 section: section2
 order: 6

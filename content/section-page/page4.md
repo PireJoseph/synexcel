@@ -1,6 +1,6 @@
 ---
 title: consultations sportives
-desciption: consultations sportives
+description: consultations sportives
 tags: sports, talents
 section: section1
 order: 4

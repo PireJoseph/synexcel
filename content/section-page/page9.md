@@ -1,6 +1,6 @@
 ---
 title: suppléments
-desciption: suppléments
+description: suppléments
 tags: sports
 section: section2
 order: 9

@@ -1,6 +1,6 @@
 ---
 title: gestion de projet
-desciption: gestion d'instance & clubs sportifs
+description: gestion d'instance & clubs sportifs
 tags: sports, management, clubs
 section: section2
 order: 8

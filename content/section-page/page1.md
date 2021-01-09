@@ -1,6 +1,6 @@
 ---
 title: programme
-desciption: programme de détection de talent
+description: programme de détection de talent
 tags: talents, sports, performance
 section: section1
 order: 1

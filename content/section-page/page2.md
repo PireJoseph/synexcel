@@ -1,6 +1,6 @@
 ---
 title: stages
-desciption: stages de vacances et de congés
+description: stages de vacances et de congés
 tags: stages
 section: section1
 order: 2

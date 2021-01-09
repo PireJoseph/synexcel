@@ -1,8 +1,8 @@
 ---
-title: consultations sportives
-description: consultations sportives
+title: PROGRAMME
+description: PROGRAMME DE DÉTECTION DE TALENTS
 tags: sports, talents
-section: section1
+section: section3
 order: 4
 excerpt: Lorem markdownum aptos pes, Inachidos caput corrumpere! Vincere ferocia arva.
 created: 2019-01-10

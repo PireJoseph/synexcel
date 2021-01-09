@@ -1,8 +1,8 @@
 ---
-title: managemenent et carrière
-description: management et gestion de carriere
+title: MANAGEMENT ET CARRIERE
+description: MANAGEMENT ET GESTION DE LA CARRIERE PROFESSIONNELLE
 tags: sports, management, carriere
-section: section2
+section: section4
 order: 7
 excerpt: Lorem markdownum aptos pes, Inachidos caput corrumpere! Vincere ferocia arva.
 created: 2019-01-10

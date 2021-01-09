@@ -1,8 +1,8 @@
 ---
-title: stages
-description: stages de vacances et de congés
+title: PARASCOLAIRES, CLUBS ET PARTENAIRES
+description: PARASCOLAIRES, CLUBS ET PARTENAIRES
 tags: stages
-section: section1
+section: section2
 order: 2
 excerpt: Lorem markdownum aptos pes, Inachidos caput corrumpere! Vincere ferocia arva.
 created: 2019-01-10

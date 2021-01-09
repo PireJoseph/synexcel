@@ -1,8 +1,8 @@
 ---
-title: clubs et partenaires
-description: parascolaires, clubs et partenaires
-tags: clubs,
-section: section1
+title: MULTISPORTS, CLUBS ET PARTENAIRES
+description: MULTISPORTS, CLUBS ET PARTENAIRES
+tags: clubs
+section: section2
 order: 3
 excerpt: Lorem markdownum aptos pes, Inachidos caput corrumpere! Vincere ferocia arva.
 created: 2019-01-10

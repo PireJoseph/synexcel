@@ -1,7 +1,7 @@
 ---
-title: programme
-description: programme de détection de talent
-tags: talents, sports, performance
+title: STAGE
+description: STAGES DE DÉTECTION DE TALENTS DE VACANCES ET CONGÉS
+tags: stage, sports, performance
 section: section1
 order: 1
 excerpt: Lorem markdownum aptos pes, Inachidos caput corrumpere! Vincere ferocia arva.

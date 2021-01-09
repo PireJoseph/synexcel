@@ -31,7 +31,7 @@ query {
    metadata {
     siteName
   },
-  allSection {
+  allSection(sortBy: "order", order: ASC) {
     edges{
       node{
         title, 

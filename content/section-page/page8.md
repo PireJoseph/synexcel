@@ -1,8 +1,8 @@
 ---
-title: gestion de projet
-description: gestion d'instance & clubs sportifs
+title: GESTION DE PROJET
+description: GESTION DE PROJETS D'INSTANCES OU DE CLUBS SPORTIFS
 tags: sports, management, clubs
-section: section2
+section: section4
 order: 8
 excerpt: Lorem markdownum aptos pes, Inachidos caput corrumpere! Vincere ferocia arva.
 created: 2019-01-10

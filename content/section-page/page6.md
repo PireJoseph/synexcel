@@ -1,8 +1,8 @@
 ---
-title: laboratoire d'excellences
-description: laboratoire d'excellences
+title: LABORATOIRE D'EXCELLENCE
+description: LABORATOIRE D'EXCELLENCE
 tags: sports, management
-section: section2
+section: section3
 order: 6
 excerpt: Lorem markdownum aptos pes, Inachidos caput corrumpere! Vincere ferocia arva.
 created: 2019-01-10

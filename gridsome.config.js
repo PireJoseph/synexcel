@@ -6,7 +6,7 @@
 
 module.exports = {
   siteName: "SYNEXCEL",
-  siteDescription: "Synergie et excellence",
+  siteDescription: "SPORTS & MANAGEMENT",
   plugins: [
     {
       use: "gridsome-plugin-tailwindcss",

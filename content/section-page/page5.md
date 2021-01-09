@@ -1,8 +1,8 @@
 ---
-title: multisports et partenaires
-description: multisports, clubs et partenaires
+title: CONSULTATIONS SPORTIVES
+description: CONSULTATIONS SPORTIVES INDIVIDUELLES & COLLECTIVES
 tags: talents, clubs, sports
-section: section1
+section: section3
 order: 5
 excerpt: Lorem markdownum aptos pes, Inachidos caput corrumpere! Vincere ferocia arva.
 created: 2019-01-10

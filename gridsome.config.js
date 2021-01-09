@@ -97,6 +97,10 @@ module.exports = {
         publicPath: `/admin`,
       },
     },
+    {
+      use: "gridsome-plugin-netlify-cms-paths",
+      options: { contentTypes: ["SectionPage", "Section"] },
+    },
   ],
   transformers: {
     remark: {

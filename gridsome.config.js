@@ -91,6 +91,12 @@ module.exports = {
     {
       use: "gridsome-plugin-svg",
     },
+    {
+      use: `gridsome-plugin-netlify-cms`,
+      options: {
+        publicPath: `/admin`,
+      },
+    },
   ],
   transformers: {
     remark: {

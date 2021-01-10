@@ -1,5 +1,5 @@
 ---
-title: PROGRAMME
+title: OUTILS
 description: PROGRAMME DE DÉTECTION DE TALENTS
 tags: sports, talents
 section: section3

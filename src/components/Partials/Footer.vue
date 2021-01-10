@@ -4,12 +4,6 @@
   >
     <div class="container mx-auto py-16">
       <div class="mb-4">
-        <p>
-          Made with 🖤 by
-          <a href="https://www.josephpire.be" target="_blank">Joseph Pire</a>
-        </p>
-      </div>
-      <div class="mb-4">
         <ul class="list-reset flex justify-center">
           <li
             v-for="socialItem in $static.metadata.social"

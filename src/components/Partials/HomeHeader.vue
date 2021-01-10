@@ -1,27 +1,23 @@
 <template>
   <div>
     <div class="z-100 relative mt-0 h-auto">
-      <SVGEvolution
-        width="1400"
-        height="400"
-        class="object-cover absolute -z-10 mt-32 h-full w-full dark:text-gray-500"
-      />
-
       <div
-        class="flex justify-start flex-col text-center text-white bg-gray-800 lg:pt-24 lg:pb-72 md:pt-24 md:pb-64 pt-24 pb-48 bg-opacity-50"
+        class="flex justify-start flex-col text-center text-white bg-gray-800 py-8 bg-opacity-50"
       >
         <div>
-          <h2 class="h1 font-black lg:text-8xl text-6xl">
+          <h2 class="h1 font-black lg:text-6xl text-4xl">
             <span class="text-gray-900 dark:text-gray-100">SYN</span
             ><span class="text-gray-100 dark:text-gray-500">EXCEL</span>
           </h2>
-          <p
-            class="h5 font-sans font-bold lg:text-5xl text-3xl text-red-900 mb-32"
-          >
+          <p class="h5 font-sans font-bold lg:text-4xl text-2xl text-red-900">
             {{ sub }}
           </p>
         </div>
-        <div></div>
+        <div>
+          <SVGEvolution
+            class="inline-block w-full h-48 lg:h-72 dark:text-gray-500"
+          />
+        </div>
       </div>
     </div>
   </div>

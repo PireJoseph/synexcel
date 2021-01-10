@@ -10,7 +10,7 @@
           }}</span>
         </g-link>
       </div>
-      <div class="flex-grow">
+      <div class="flex-grow font-bold">
         <ul class="list-none flex justify-left">
           <li
             v-for="section in $static.allSection.edges"
@@ -70,8 +70,12 @@
       <div class="inline-block">
         <ul class="list-none flex justify-center md:justify-end">
           <li class="mr-6">
-            <font-awesome :icon="['fas', ' sign']"></font-awesome>
+            <font-awesome :icon="['fas', 'user-plus']"></font-awesome>
           </li>
+          <li class="mr-6">
+            <font-awesome :icon="['fas', 'shopping-cart']"></font-awesome>
+          </li>
+
           <li class="mr-6">
             <search-button v-on="$listeners"></search-button>
           </li>

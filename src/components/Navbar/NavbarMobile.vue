@@ -15,9 +15,10 @@
       </div>
       <div class="flex-grow text-center font-bold text-lg">
         <g-link to="/">
-          <span class="font-semibold text-xl tracking-tight">{{
-            $static.metadata.siteName
-          }}</span>
+          <span class="font-semibold text-xl tracking-tight">
+            <span class="text-gray-900 dark:text-gray-100">SYN</span>
+            <span class="text-gray-400 dark:text-gray-500">EXCEL</span>
+          </span>
         </g-link>
       </div>
 

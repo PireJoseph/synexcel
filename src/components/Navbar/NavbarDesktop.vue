@@ -12,6 +12,13 @@
       </div>
       <div class="flex-grow font-bold">
         <ul class="list-none flex justify-left">
+          <li class="mr-2 py-1 flex item-center">
+            <theme-switcher
+              class="flex items-center"
+              v-on="$listeners"
+              :theme="theme"
+            />
+          </li>
           <li
             v-for="section in $static.allSection.edges"
             :key="section.title"
@@ -78,9 +85,6 @@
 
           <li class="mr-6">
             <search-button v-on="$listeners"></search-button>
-          </li>
-          <li>
-            <theme-switcher v-on="$listeners" :theme="theme" />
           </li>
         </ul>
       </div>

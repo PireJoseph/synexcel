@@ -6,9 +6,8 @@
       <div class="flex items-center flex-shrink-0 mr-6">
         <g-link to="/">
           <span class="font-semibold text-xl tracking-tight">
-            <span class="text-gray-900 dark:text-gray-100">SYN</span
-            ><span class="text-gray-400 dark:text-gray-500">EXCEL</span></span
-          >
+            <Logo />
+          </span>
         </g-link>
       </div>
       <div class="flex-grow font-bold">
@@ -97,6 +96,7 @@
 import ThemeSwitcher from "~/components/Navbar/ThemeSwitcher.vue";
 import SearchButton from "~/components/Navbar/SearchButton.vue";
 import Subnavigation from "~/components/Navbar/NavbarSubNavigation.vue";
+import Logo from "@/components/Partials/Logo.vue";
 
 export default {
   data: function() {
@@ -112,6 +112,7 @@ export default {
     ThemeSwitcher,
     SearchButton,
     Subnavigation,
+    Logo,
   },
   props: {
     theme: {

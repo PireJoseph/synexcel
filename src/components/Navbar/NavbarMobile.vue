@@ -16,8 +16,7 @@
       <div class="flex-grow text-center font-bold text-lg">
         <g-link to="/">
           <span class="font-semibold text-xl tracking-tight">
-            <span class="text-gray-900 dark:text-gray-100">SYN</span>
-            <span class="text-gray-400 dark:text-gray-500">EXCEL</span>
+            <Logo />
           </span>
         </g-link>
       </div>
@@ -39,6 +38,7 @@
 <script>
 import ThemeSwitcher from "~/components/Navbar/ThemeSwitcher.vue";
 import SearchButton from "~/components/Navbar/SearchButton.vue";
+import Logo from "@/components/Partials/Logo.vue";
 
 export default {
   props: {
@@ -52,6 +52,7 @@ export default {
   components: {
     ThemeSwitcher,
     SearchButton,
+    Logo,
   },
   methods: {
     openNavbarModal() {

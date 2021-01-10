@@ -2,12 +2,11 @@
   <div>
     <div class="z-100 relative mt-0 h-auto">
       <div
-        class="flex justify-start flex-col text-center text-white bg-gray-800 py-8 bg-opacity-50"
+        class="flex justify-start flex-col text-center text-white bg-gray-200 dark:bg-gray-900 py-8"
       >
         <div>
           <h2 class="h1 font-black lg:text-6xl text-4xl">
-            <span class="text-gray-900 dark:text-gray-100">SYN</span
-            ><span class="text-gray-100 dark:text-gray-500">EXCEL</span>
+            <Logo />
           </h2>
           <p class="h5 font-sans font-bold lg:text-4xl text-2xl text-red-900">
             {{ sub }}
@@ -25,10 +24,12 @@
 
 <script>
 import SVGEvolution from "@/assets/svg/evolution.svg?inline";
+import Logo from "@/components/Partials/Logo.vue";
 
 export default {
   components: {
     SVGEvolution,
+    Logo,
   },
   props: {
     title: {

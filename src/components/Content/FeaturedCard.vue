@@ -28,11 +28,11 @@
               </div>
 
               <div class="post-card-content">
-                <p class="tracking-wide font-semibold mt-3">
+                <!-- <p class="tracking-wide font-semibold mt-3">
                   <g-link :to="edge.node.section.path">{{
                     edge.node.section.title
                   }}</g-link>
-                </p>
+                </p> -->
 
                 <h3 class="tracking-wider mt-3 mb-3 text-4xl max-w-xl">
                   {{ edge.node.title }}

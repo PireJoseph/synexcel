@@ -2,11 +2,6 @@
   "headerNavigation": [],
   "footerNavigation": [
     {
-      "name": "Inscription",
-      "link": "/",
-      "external": false
-    },
-    {
       "name": "Contact",
       "link": "https://www.facebook.com",
       "external": true

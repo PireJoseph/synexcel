@@ -25,11 +25,11 @@
         class="post-card-content bg-white dark:bg-gray-900 h-full rounded-b-lg"
       >
         <div class="flex-col relative flex justify-between px-6 pt-4">
-          <p class="text-xs tracking-wide font-medium mt-3 dark:text-white">
+          <!-- <p class="text-xs tracking-wide font-medium mt-3 dark:text-white">
             <g-link :to="record.section.path">{{
               record.section.title
             }}</g-link>
-          </p>
+          </p> -->
         </div>
         <g-link
           :to="record.path"

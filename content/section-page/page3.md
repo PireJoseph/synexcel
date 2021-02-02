@@ -1,63 +1,48 @@
 ---
-title: MULTISPORTS, CLUBS ET PARTENAIRES
+title: LABORATOIRE
+id: page3
 description: MULTISPORTS, CLUBS ET PARTENAIRES
 tags: clubs
-section: section2
 order: 3
 excerpt: Lorem markdownum aptos pes, Inachidos caput corrumpere! Vincere ferocia arva.
 created: 2019-01-10
-image: ../../static/uploads/ingmar-hoogerhoud-lm91dJNPRS4-unsplash.jpg
+image: ../../static/uploads/laboratoire.jpg
 image_caption: Photo by Josh Spires on Unsplash
 featured: true
 ---
 
-## Ossa narrat sortita fecerat sit conataque
+## OUTILS DE DÉTECTION DE TALENTS
 
-Lorem markdownum aptos pes, Inachidos caput corrumpere! Hanc haud quam [est
-candore](http://quisquis-in.io/ramossuperum) conpulit meriti. Vincere ferocia
-arva.
+Personnellement au-delà de ** notre outil de détection de talents**, nous soutenons que la ** culture du sport en général** de l’entourage du jeune talent ou de sa famille permettra en partie à l’éveil et à l’éclosion de ce dernier. Le simple fait de voir son entourage ou ** ses parents s’investir activement dans le sport** est un écrin favorable à la naissance d’un champion, un génie !
 
-## Eleis celeberrimus loci ait falsa infelix tuoque
+Cependant, le talent à lui seul ne peut suffire devant l’exigence accrue du ** sport de haut niveau**. Un sportif professionnel doit d’abord être ** un « athlète » ** , avoir une condition physique et une hygiène de vie pratiquement irréprochable afin de satisfaire au minimum requis en cette matière. Le moyen d’arriver AU PLUS HAUT est d’être conscient que le ** travail personnel réalisé avec passion** paie davantage que les séances personnalisées et celles en club. CR7 en est l’exemple !
+Comme mentionné plus haut la culture « familiale du sport » est un adjuvant de qualité pour atteindre des objectifs de très haut-niveau. Des exemples pullulent… <em>(Hazard, Lukaku, Borlée,…)meow</em>.
 
-Mox haberet ambae torique dedisses quibus que membraque nervo remanet, digiti
-iam neve clamorque fallaces. Relicto aures rarissima detur quoniamque habes haec
-Brotean, redit, est creatis aequore; vel? Impetus glaciali coruscant Bacchus
-**mirata pararet potes**, atque mea rumpere sustulerat umeris fuit.
+Une question que nous nous empêchons de nous poser est comment procéder lors de la découverte « tardive » d’un talent ? Qui peut réellement qualifier de « tardive » cette découverte ? De quelle manière faut-il travailler ?
 
-## Facundis quid
+Sommes-nous réellement bien outillés pour reconnaître ce petit truc qui peut faire toute la différence ?
 
-Venerit conveniunt per memori sed laniarat Dromas, solum tum. Undis lacteus
-infitiatur adest [acies certius](http://www.tollit-clamavit.io/) inscius, cum ad
-emittunt dextra.
+Aujourd’hui où en sommes-nous avec la culture du sport dans nos familles ?
 
-Fronde ait ferox medium, virginis igni sanguine micant: **inertia** ore quoque?
-Iaculi quicquid **virescere misit stirpe** Theseus Venerem! Falce taceo oves,
-idem fugit, non abiit palam quantum, fontes vinci et abiit. Deiectoque exstabant
-**Phrygiae** cepit munus tanto.
+De quelle manière accompagner un talent depuis les premières manifestations de ce dernier et proposer un plan d’évolution de carrière et post-carrière équilibré ?
 
-## Et capienda Peneia
+Notre responsabilité aujourd’hui est de ** prendre soin de notre santé** et de garder la pratique du sport comme un élément salutaire et surtout comme un terreau fertile pour accompagner un jeune champion !
 
-_Haec moenia pater_ signataque urget, ait quies laqueo sumitque. Misit sit
-moribunda terrae sequar longis hoc, cingebant copia cultros! Alis templi taeda
-solet suum mihi penates quae. Cecidere _deo agger infantem_ indetonsusque ipsum;
-ova formasque cornu et pectora [voce oculos](http://www.tibibene.io/iter.html),
-prodis pariterque sacra finibus, Sabinae. Fugarant fuerat, famam ait toto imas
-sorte pectora, est et, procubuit sua Appenninigenae habes postquam.
+## CONSULTATIONS SPORTIVES INDIVIDUELLES & COLLECTIVES
 
-## Quoque aut gurgite aliquis igneus
+![Photo by Ingmar Hoogerhoud on Unsplash](../../static/uploads/laboratoire1.jpg)
 
-Spatiosa ferax iam sis ex quae peperit iacentes, grates rogat quae senserat nec
-nec verba harenas inplent. Per dum necis in in versus quin loquendi latens;
-inde. **Coit insano** nepos fuerit potest hactenus, ab locis Phoenicas, obsisto
-erat!
+Ces séances sont ouvertes à ** toutes personnes aptes** à faire du sport au travers nos séances personnalisées, spécifiques ou individuelles. L’objectif est la ** réappropriation et l’écoute de son corps** au travers des exercices de cardio, de renforcement musculaire, de stretching etc…
 
-> Nec uterum Aurorae petentes abstulit. Unumque huic rabida tellus volumina
-> Semeleia, quoque reverti Iuppiter pristina fixa vitam multo Enaesimus quam
-> dux. Sua **damus** decipere, ut **obortas** nomen sine vestrae vita.
+Nous avons la possibilité ** d’établir ensemble** un programme sportif avec ** des objectifs** à courts, moyens et longs termes.
 
-Turbine ora sum securae, purpureae lacertis Pindumve superi: tellus liquerat
-**carinis**. Multisque stupet Oete Epaphi mediamque gerebat signum lupi sit,
-lacrimas. Tumidi fassusque hosti, deus [vixque desint
-dedit](http://hisnurus.com/putares-pars) dum et, quo non, dea [suras
-tantum](http://mactata.org/inducere.php). Unus acta capulo. In Dryope sic
-vestigia est neu ignis in **illa mirantur agilis** densior.
+Les ** moyens mis en œuvre** pour l’accompagnement des sportifs sont ** l’expérience des titulaires des séances**, le matériel et le temps consacré par le moniteur. En aucun nous avons une obligation de résultat.
+
+Nous utilisons les réseaux sociaux afin de ** promouvoir le sport**, dans ce cadre, sauf stipulation contraire écrite, nous nous réservons le droit d’utiliser certaines images dans un cadre strictement exclusif.
+
+## LABORATOIRE D'EXCELLENCE
+
+Nous procédons à la détection & la gestion de la carrière du jeune talent au travers d’une ** collaboration étroite** avec les parents, les écoles et les structures sportives.
+Nous nous sommes spécialisés dans le ** coaching individuel et collectif** en vue de permettre à ** nos adhérents d’exceller** lors d’une compétition nationale ou internationale ou de test dans un club professionnel ou une structure sportive, et ce pour ** n’importe quelle discipline sportive. **
+
+Il existe 4 types de programmes différents en fonction du <em>** « volume d’entraînement à combler » **meow</em>., 1, 2 ou 3 entraînements spécifiques supplémentaires afin de permettre à nos jeunes d’être ou rester compétitifs surtout ** pendant les périodes d’inactivités prolongées. **

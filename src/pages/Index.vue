@@ -35,11 +35,6 @@
           timeToRead
           humanTime: created(format: "DD MMM YYYY")
           datetime: created
-          section {
-            id
-            title
-            path
-          }
         }
       }
     }
@@ -59,11 +54,6 @@
           featured
           humanTime: created(format: "DD MMM YYYY")
           datetime: created
-          section {
-            id
-            title
-            path
-          }
         }
       }
     }

@@ -34,9 +34,7 @@ module.exports = function(api) {
             node {
               id
               path
-              tags {
-                title
-              }
+              tags
             }
           }
         }
@@ -47,15 +45,15 @@ module.exports = function(api) {
       //without the map, you will get an 500 error
       //because the graphql filter requires an array
       //not an object
+      console.log(node);
       var tags = _.map(node.tags, function(tag) {
         return tag.title;
       });
-
       createPage({
         path: node.path,
-        component: "./src/templates/api-created/SectionPage.vue",
+        component: "./src/templates/page/SectionPage.vue",
         context: {
-          recordId: node.id,
+          id: node.id,
           tags: tags,
         },
       });

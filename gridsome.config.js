@@ -48,24 +48,8 @@ module.exports = {
     {
       use: "@gridsome/source-filesystem",
       options: {
-        typeName: "Section",
-        path: "./content/section/*.md",
-      },
-    },
-    {
-      use: "@gridsome/source-filesystem",
-      options: {
         typeName: "SectionPage",
         path: "./content/section-page/*.md",
-        refs: {
-          section: {
-            typeName: "Section",
-          },
-          tags: {
-            typeName: "Tag",
-            create: true,
-          },
-        },
       },
     },
     {
@@ -73,19 +57,6 @@ module.exports = {
       options: {
         typeName: "CustomPage",
         path: "./content/pages/*.md",
-      },
-    },
-    {
-      use: "gridsome-plugin-flexsearch",
-      options: {
-        searchFields: ["title", "content"],
-        collections: [
-          {
-            typeName: "SectionPage",
-            indexName: "SectionPage",
-            fields: ["title", "section", "excerpt", "content"],
-          },
-        ],
       },
     },
     {
@@ -122,19 +93,9 @@ module.exports = {
         path: "/:title",
       },
     ],
-    Tag: [
-      {
-        path: "/tags/:title",
-      },
-    ],
     SectionPage: [
       {
-        path: "/pages/:title",
-      },
-    ],
-    Section: [
-      {
-        path: "/sections/:slug",
+        path: "/:title",
       },
     ],
   },

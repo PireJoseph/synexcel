@@ -1,63 +1,61 @@
 ---
-title: OUTILS
+title: MANAGEMENT
+id: page4
 description: PROGRAMME DE DÉTECTION DE TALENTS
 tags: sports, talents
-section: section3
 order: 4
 excerpt: Lorem markdownum aptos pes, Inachidos caput corrumpere! Vincere ferocia arva.
 created: 2019-01-10
-image: ../../static/uploads/ingmar-hoogerhoud-lm91dJNPRS4-unsplash.jpg
+image: ../../static/uploads/management.jpg
 image_caption: Photo by Josh Spires on Unsplash
 featured: true
 ---
 
-## Ossa narrat sortita fecerat sit conataque
+## MANAGEMENT ET GESTION DE LA CARRIERE PROFESSIONNELLE
 
-Lorem markdownum aptos pes, Inachidos caput corrumpere! Hanc haud quam [est
-candore](http://quisquis-in.io/ramossuperum) conpulit meriti. Vincere ferocia
-arva.
+L’objectif est d’accompagner le sportif ** dans la gestion de sa carrière**, le choix club en adéquation avec ses qualités et ses attentes. Pour atteindre cet objectif nous nous donnons 1, 2 ou 3 ans ** selon l’évolution du sportif**.
 
-## Eleis celeberrimus loci ait falsa infelix tuoque
+Nous nous gardons de sauter les étapes et afin de permettre que le sportif puisse aborder la sphère professionnelle en ayant ** tout le bagage nécessaire. **
 
-Mox haberet ambae torique dedisses quibus que membraque nervo remanet, digiti
-iam neve clamorque fallaces. Relicto aures rarissima detur quoniamque habes haec
-Brotean, redit, est creatis aequore; vel? Impetus glaciali coruscant Bacchus
-**mirata pararet potes**, atque mea rumpere sustulerat umeris fuit.
+Dans chaque programme PRO est composé d’un ** accompagnement individualisé**, la préparation avec le matériel adéquat, le coaching nutrition, le service d’un intermédiaire ou agent de joueurs, ** le coaching culturel et pédagogique**, le coaching spécifique, l’appui d’un médecin, kinésithérapeute, massothérapeutes, psychologue du sport ainsi qu’un juriste en droit des affaires et un avocat. Toute une ** équipe pluridisciplinaire** pour vous accompagner dans ce beau projet !
 
-## Facundis quid
+## GESTION DE PROJETS D'INSTANCES OU DE CLUBS SPORTIFS & INGÉNIERIE MANAGÉRIALE
 
-Venerit conveniunt per memori sed laniarat Dromas, solum tum. Undis lacteus
-infitiatur adest [acies certius](http://www.tollit-clamavit.io/) inscius, cum ad
-emittunt dextra.
+Nous offrons nos services en matière de ** stratégie de développement. ** Nous mettons en place des ** synergies avec les acteurs locaux** et personnes intéressées afin d’établir des partenariats pour la recherche de mécénat.
 
-Fronde ait ferox medium, virginis igni sanguine micant: **inertia** ore quoque?
-Iaculi quicquid **virescere misit stirpe** Theseus Venerem! Falce taceo oves,
-idem fugit, non abiit palam quantum, fontes vinci et abiit. Deiectoque exstabant
-**Phrygiae** cepit munus tanto.
+Afin d’épauler la gestion de l’effectif d’une structure sportive, nous nous engageons à ** définir ensemble les objectifs** et les moyens à atteindre en adéquation avec la politique sportive du club ou de la structure sportive.
 
-## Et capienda Peneia
+Entre autres ** nous respectons et veillons aussi**, aux règles inhérentes aux politiques de la vie privée, ** la RGPD**, la gestion de l’image.
 
-_Haec moenia pater_ signataque urget, ait quies laqueo sumitque. Misit sit
-moribunda terrae sequar longis hoc, cingebant copia cultros! Alis templi taeda
-solet suum mihi penates quae. Cecidere _deo agger infantem_ indetonsusque ipsum;
-ova formasque cornu et pectora [voce oculos](http://www.tibibene.io/iter.html),
-prodis pariterque sacra finibus, Sabinae. Fugarant fuerat, famam ait toto imas
-sorte pectora, est et, procubuit sua Appenninigenae habes postquam.
+Cette manière de procéder permet une collaboration et une ** gestion externe du recrutement** et favorise notamment l’ouverture à un nouveau réseau à travers les mandats d’acquisition ou de revente d’un joueur, et de gestion des contrats et des transferts.
 
-## Quoque aut gurgite aliquis igneus
+Nous élaborons une ** politique de recrutement** et de gestion de l’effectif à travers une définition claire des attentes des clubs. ** Un audit interne** est réalisé afin de connaître les forces, faiblesses et notamment les choses à améliorer.
 
-Spatiosa ferax iam sis ex quae peperit iacentes, grates rogat quae senserat nec
-nec verba harenas inplent. Per dum necis in in versus quin loquendi latens;
-inde. **Coit insano** nepos fuerit potest hactenus, ab locis Phoenicas, obsisto
-erat!
+La politique de scouting, ** gestion des transferts et gestion marketing du professionnel** font aussi parties de notre escarcelle ainsi que la médiation sportive à travers les modes alternatifs de ** résolution de conflits et règlement des litiges.**
 
-> Nec uterum Aurorae petentes abstulit. Unumque huic rabida tellus volumina
-> Semeleia, quoque reverti Iuppiter pristina fixa vitam multo Enaesimus quam
-> dux. Sua **damus** decipere, ut **obortas** nomen sine vestrae vita.
+## MANAGEMENT SYNEXCEL BUSINESS & OPTIMISATION
 
-Turbine ora sum securae, purpureae lacertis Pindumve superi: tellus liquerat
-**carinis**. Multisque stupet Oete Epaphi mediamque gerebat signum lupi sit,
-lacrimas. Tumidi fassusque hosti, deus [vixque desint
-dedit](http://hisnurus.com/putares-pars) dum et, quo non, dea [suras
-tantum](http://mactata.org/inducere.php). Unus acta capulo. In Dryope sic
-vestigia est neu ignis in **illa mirantur agilis** densior.
+![Photo by Ingmar Hoogerhoud on Unsplash](../../static/uploads/management1.jpg)
+
+Le monde actuel est entrain de connaître ** une profonde mutation**, il convient de pratiquer <em>« une veille juridique »meow</em>. afin ** d’actualiser les connaissances dans différents domaines** qui concerne les affaires et la manière de d’entreprendre.
+
+Dans ce cadre, nous organisons ** des formations juridiques** sur mesure au profit des organisations, des entités sportives et des entités fédérées <em>(Communes, CPAS, Province, Région, État fédéral…)meow</em>.
+
+Et des ** consultations informatives** sur le domaine de l’entrepreneuriat, l’ingénierie organisationnelle et financière, l’optimisation, accès et la gestion de la propriété (im)mobilière.
+** <em>« L’organisation est facteur de productivité »**meow</em>.
+
+Combien de fois, nous est-il arrivé de payer un ** supplément de facture** car nous ne savons plus où avons-nous rangé le courrier ou la facture ? L’objectif du rangement est de pouvoir disposer de l’élément rangé au moment où cela est nécessaire.
+
+Dans ce pôle, nous donnons les outils nécessaires pour une ** organisation optimale au travers de la transition numérique. **
+
+Au sein de ** l’ingénierie financière**, nous apprenons à nos usagers d’** établir un budget mensuel et d’investir durablement** et de manière variée ; autant dans l’immobilier que dans les titres et actions.
+
+En tant que facilitateur administratif, notre champ d’action est très large. Nous accompagnons nos adhérents dans ** les démarches administratives** les plus simples au plus complexes.
+L’instauration du département de ** médiation et de conciliation** est une évidence dans le monde où nous vivons. En effet, se mettre autour d’une table en tentant d’extraire une solution des parties a encore de l’avenir.
+
+Y’a-t-il un âge pour entreprendre ? Dans ce pôle, « L’univers de l’entrepreneuriat » nous ** encourageons l’entrepreneuriat** dès le plus jeune âge, nous mettons tout en œuvre pour assurer un accompagnement et un suivi de grande qualité.
+
+Finalement dans le dernier volet à savoir l’Optimisation, ** accès et gestion de la propriété (im)mobilière**, analysons les besoins de nos adhérents avant de donner une réponse bancaire, fiscale et économique autant en termes de placement de fortune ou d’accès à la propriété.
+
+Les règles du crédit hypothécaire se sont durcies, les banques ont l’obligation relative de prêter à hauteur de 80% de la valeur vénale. Cependant il existe d’** autres solutions** : - Crédit social au Fonds du Logement - Solution mixte si activité indépendante - Mutualisation des moyens - Habitats groupés - La location avec option d’achat etc…
+Nous analysons quelle est la solution la plus avantageuse et en adéquation avec vos moyens.

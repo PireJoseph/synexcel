@@ -1,27 +1,24 @@
 <template>
   <div>
     <div class="w-full mb-2 overflow-x-hidden dark:text-gray-400">
-      <h2 class="text-xl my-0">Navigation</h2>
+      <h2 class="text-xl my-0">{{ $static.metadata.siteName }}</h2>
       <div class="menu-links">
         <ul>
           <li
-            v-for="section in $static.allSection.edges"
-            :key="section.node.title"
+            v-for="page in $static.allSectionPage.edges"
+            :key="page.node.title"
             class="py-1 flex justify-start"
           >
             <g-link
               class="block py-1"
-              :to="section.node.path"
-              :title="section.node.name"
+              :to="page.node.path"
+              :title="page.node.name"
             >
-              {{ section.node.title }}
+              {{ page.node.title }}
             </g-link>
           </li>
         </ul>
       </div>
-    </div>
-    <div class="mobileSubnav pl-2 dark:text-gray-400">
-      <subnavigation />
     </div>
   </div>
 </template>
@@ -31,7 +28,7 @@ query {
    metadata {
     siteName
   },
-  allSection(sortBy: "order", order: ASC) {
+  allSectionPage(sortBy: "order", order: ASC) {
     edges{
       node{
         title, 
@@ -43,13 +40,7 @@ query {
 }
 </static-query>
 <script>
-import Subnavigation from "~/components/Navbar/NavbarSubNavigation.vue";
-
-export default {
-  components: {
-    Subnavigation,
-  },
-};
+export default {};
 </script>
 
 <style></style>

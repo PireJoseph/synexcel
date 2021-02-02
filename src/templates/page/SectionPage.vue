@@ -1,10 +1,6 @@
 <template>
   <Layout>
-    <content-header
-      :image="$page.sectionPage.image"
-      :staticImage="false"
-      :opacity="0"
-    ></content-header>
+    <content-header :image="$page.sectionPage.image"></content-header>
 
     <div
       class="container pb-32 pt-10 sm:pxi-0 mx-auto overflow-x-hidden text-gray-800 dark:text-gray-500"
@@ -100,32 +96,12 @@
       content
       humanTime : created(format:"DD MMMM YYYY")
       datetime : created(format:"ddd MMM DD YYYY hh:mm:ss zZ")
-      
+
       timeToRead
       tags
-
     }
 
-    related: allSectionPage(
-      filter: { id: { ne: $id }}
-    ) {
-      edges {
-        node {
-          title
-          path
-          image(width:1600, height:800)
-          image_caption
-          excerpt
-          content
-          humanTime : created(format:"DD MMMM YYYY")
-          datetime : created(format:"ddd MMM DD YYYY hh:mm:ss zZ")
-      
-      timeToRead
-      tags 
 
-        }
-      }
-    }
 
   }
 </page-query>
@@ -133,8 +109,6 @@
 <script>
 import CardItem from "~/components/Content/CardItem.vue";
 import ContentHeader from "~/components/Partials/ContentHeader.vue";
-import mediumZoom from "medium-zoom";
-import { sampleSize } from "lodash";
 
 export default {
   components: {
@@ -145,14 +119,6 @@ export default {
     return {
       title: this.$page.sectionPage.title,
     };
-  },
-  computed: {
-    relatedRecords() {
-      return sampleSize(this.$page.related.edges, 3);
-    },
-  },
-  mounted() {
-    mediumZoom(".post-content img");
   },
 };
 </script>

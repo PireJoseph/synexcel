@@ -53,13 +53,6 @@ module.exports = {
       },
     },
     {
-      use: "@gridsome/source-filesystem",
-      options: {
-        typeName: "CustomPage",
-        path: "./content/pages/*.md",
-      },
-    },
-    {
       use: "gridsome-plugin-svg",
     },
     {
@@ -88,11 +81,6 @@ module.exports = {
     },
   },
   templates: {
-    CustomPage: [
-      {
-        path: "/:title",
-      },
-    ],
     SectionPage: [
       {
         path: "/:title",

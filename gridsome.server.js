@@ -45,7 +45,6 @@ module.exports = function(api) {
       //without the map, you will get an 500 error
       //because the graphql filter requires an array
       //not an object
-      console.log(node);
       var tags = _.map(node.tags, function(tag) {
         return tag.title;
       });

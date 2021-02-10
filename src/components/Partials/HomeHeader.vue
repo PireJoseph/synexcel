@@ -11,6 +11,12 @@
           <p class="h5 font-sans font-bold lg:text-4xl text-2xl text-red-900">
             {{ sub }}
           </p>
+          <p
+            class="hidden lg:block lg:my-8 font-sans font-bold text-black dark:text-white text-xl"
+          >
+            Spécialisé en stages, détection de talents, catalogue multisports,
+            laboratoire d’entraînement intensif et management sportif
+          </p>
         </div>
         <div>
           <SVGEvolution

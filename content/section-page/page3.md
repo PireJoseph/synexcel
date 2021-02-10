@@ -1,7 +1,7 @@
 ---
 title: LABORATOIRE
 id: page3
-description: MULTISPORTS, CLUBS ET PARTENAIRES
+description: LABORATOIRE, COACHING ET TALENTS
 tags: clubs
 order: 3
 excerpt: Lorem markdownum aptos pes, Inachidos caput corrumpere! Vincere ferocia arva.

@@ -1,7 +1,7 @@
 ---
 title: MANAGEMENT
 id: page4
-description: PROGRAMME DE DÉTECTION DE TALENTS
+description: CARRIÈRE SPORTIVE, GESTION DE PROJETS DE CLUBS & INSTANCES
 tags: sports, talents
 order: 4
 excerpt: Lorem markdownum aptos pes, Inachidos caput corrumpere! Vincere ferocia arva.

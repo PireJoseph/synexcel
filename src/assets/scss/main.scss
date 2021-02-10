@@ -261,6 +261,12 @@ h6,
   }
 }
 
+.container {
+  h2 {
+    @apply mt-16;
+  }
+}
+
 .post-content {
   p {
     @apply my-6;
@@ -292,6 +298,23 @@ h6,
 
 .post-authors a:last-child::after {
   content: "";
+}
+
+/* TABLES */
+table {
+  @apply text-xl;
+  @apply my-12;
+  @apply text-left;
+  td {
+    @apply pr-8;
+    @apply pb-1;
+  }
+  th {
+    @apply pb-4;
+    td {
+      @apply pl-2;
+    }
+  }
 }
 
 /* Generated with http://k88hudson.github.io/syntax-highlighting-theme-generator/www */

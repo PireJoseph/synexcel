@@ -107,12 +107,10 @@
 </page-query>
 
 <script>
-import CardItem from "~/components/Content/CardItem.vue";
 import ContentHeader from "~/components/Partials/ContentHeader.vue";
 
 export default {
   components: {
-    CardItem,
     ContentHeader,
   },
   metaInfo() {

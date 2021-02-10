@@ -3,12 +3,17 @@
   "footerNavigation": [
     {
       "name": "Contact",
-      "link": "https://www.facebook.com",
-      "external": true
+      "link": "/contact",
+      "external": false
     },
     {
-      "name": "Market",
-      "link": "https://www.gridsome.org",
+      "name": "A propos",
+      "link": "/a-propos",
+      "external": false
+    },
+    {
+      "name": "Nous rejoindre",
+      "link": "/nous-rejoindre",
       "external": false
     },
     {

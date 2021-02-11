@@ -2,6 +2,7 @@
   <div>
     <div class="z-100 relative mt-0 h-auto">
       <g-image
+        v-if="image"
         :src="image"
         width="1400"
         height="400"

@@ -14,11 +14,11 @@ L’organisation, le ciment entre la passion et les performances, il est aussi u
 
 Sont aussi visés par ce projet : les clubs amateurs ou professionnels, structures sportives, prestataires sportifs, entreprises individuelles, entreprises morales, l’État fédéral, entités fédérées (Communes, Régions, etc..) et aux instances internationales. 
 
+![Olivier Bakomba](../../static/uploads/a-propos1.jpg)
+
 Pour atteindre les objectifs fixés, nous collaborons avec une équipe pluridisciplinaire de passionnée composée d’un Juriste-coordinateur, préparateur-physique, coach personnalisé, coach spécifique, kinésithérapeute, médecin sportif, psychologue du développement et du sport, juristes & avocats toutes spécialités (droit des affaires et contentieux des étrangers), économiste, intermédiaires ou agents sportifs, animateurs sportifs, recruteurs en scouting, professionnels en sport de combat (boxe, tai-jitsu et taekwondo…), experts financier et administratif, expert-comptable, conciliateurs et médiateurs agréés, agents immobiliers et expert en gestion et création d’entreprise.
 
 Nous travaillons en synergie différents experts et d’autres structures existantes afin d’offrir un vaste service de qualité en adéquation avec notre vision. Nous accompagnons nos talents dès leur plus jeune âge avec une pédagogie adaptée.
 
 L’expertise et la passion qui sont les nôtres rendent ce projet unique. Notre expérience et l’écoute des acteurs principaux nous ont permis d’affiner chaque point de ce projet, qui est lui-même d’ailleurs est en constante amélioration.
-
-<!-- ![Sports et loisirs](../../static/uploads/stage1.jpg) -->
 

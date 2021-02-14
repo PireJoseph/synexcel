@@ -2,6 +2,7 @@
 title: Contact
 id: page3
 description: Nous avons tout à gagner à collaborer
+order: 3
 image: ../../static/uploads/contact.jpg
 image_caption: Photo by Josh Spires on Unsplash
 ---

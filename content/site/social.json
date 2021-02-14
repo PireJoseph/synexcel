@@ -7,17 +7,17 @@
     },
     {
       "name": "Instagram",
-      "link": "#",
+      "link": "https://www.instagram.com/synexcel_sports_et_management/",
       "icon": "instagram"
     },
     {
       "name": "Whatsapp",
-      "link": "#",
+      "link": "https://api.whatsapp.com/send?phone=467620823&text=SYNEXCEL",
       "icon": "whatsapp"
     },
     {
       "name": "Github",
-      "link": "#",
+      "link": "https://github.com/PireJoseph/synexcel",
       "icon": "github"
     }
   ]

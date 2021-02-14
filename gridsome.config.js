@@ -53,6 +53,13 @@ module.exports = {
       },
     },
     {
+      use: "@gridsome/source-filesystem",
+      options: {
+        typeName: "SinglePage",
+        path: "./content/single-page/*.md",
+      },
+    },
+    {
       use: "gridsome-plugin-svg",
     },
     {
@@ -84,6 +91,12 @@ module.exports = {
     SectionPage: [
       {
         path: "/:title",
+      },
+    ],
+    SinglePage: [
+      {
+        path: "/:title",
+        component : "./src/templates/page/SinglePage.vue",
       },
     ],
   },

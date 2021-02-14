@@ -2,16 +2,15 @@
 title: MANAGEMENT
 id: page4
 description: CARRIÈRE SPORTIVE, GESTION DE PROJETS DE CLUBS & INSTANCES
-tags: sports, talents
+tags: sports, management, business, succès
 order: 4
-excerpt: Lorem markdownum aptos pes, Inachidos caput corrumpere! Vincere ferocia arva.
-created: 2019-01-10
 image: ../../static/uploads/management.jpg
 image_caption: Photo by Josh Spires on Unsplash
-featured: true
 ---
 
-## MANAGEMENT ET GESTION DE LA CARRIERE PROFESSIONNELLE
+## MANAGEMENT PROFESSIONEL
+
+![Management et gestion de carrière](../../static/uploads/management1.jpg)
 
 L’objectif est d’accompagner le sportif ** dans la gestion de sa carrière**, le choix club en adéquation avec ses qualités et ses attentes. Pour atteindre cet objectif nous nous donnons 1, 2 ou 3 ans ** selon l’évolution du sportif**.
 
@@ -19,7 +18,9 @@ Nous nous gardons de sauter les étapes et afin de permettre que le sportif puis
 
 Dans chaque programme PRO est composé d’un ** accompagnement individualisé**, la préparation avec le matériel adéquat, le coaching nutrition, le service d’un intermédiaire ou agent de joueurs, ** le coaching culturel et pédagogique**, le coaching spécifique, l’appui d’un médecin, kinésithérapeute, massothérapeutes, psychologue du sport ainsi qu’un juriste en droit des affaires et un avocat. Toute une ** équipe pluridisciplinaire** pour vous accompagner dans ce beau projet !
 
-## GESTION DE PROJETS D'INSTANCES OU DE CLUBS SPORTIFS & INGÉNIERIE MANAGÉRIALE
+## INGÉNIERIE MANAGÉRIALE
+
+![Gestion de projets d'instances ou de clubs sportifs & ingénierie managériale](../../static/uploads/management2.jpg)
 
 Nous offrons nos services en matière de ** stratégie de développement. ** Nous mettons en place des ** synergies avec les acteurs locaux** et personnes intéressées afin d’établir des partenariats pour la recherche de mécénat.
 
@@ -33,16 +34,16 @@ Nous élaborons une ** politique de recrutement** et de gestion de l’effectif 
 
 La politique de scouting, ** gestion des transferts et gestion marketing du professionnel** font aussi parties de notre escarcelle ainsi que la médiation sportive à travers les modes alternatifs de ** résolution de conflits et règlement des litiges.**
 
-## MANAGEMENT SYNEXCEL BUSINESS & OPTIMISATION
+## SYNEXCEL BUSINESS & OPTIMISATION
 
-![Photo by Ingmar Hoogerhoud on Unsplash](../../static/uploads/management1.jpg)
+![Management, business & optimisation](../../static/uploads/management3.jpg)
 
-Le monde actuel est entrain de connaître ** une profonde mutation**, il convient de pratiquer <em>« une veille juridique »meow</em>. afin ** d’actualiser les connaissances dans différents domaines** qui concerne les affaires et la manière de d’entreprendre.
+Le monde actuel est entrain de connaître ** une profonde mutation**, il convient de pratiquer <em>« une veille juridique </em>. afin ** d’actualiser les connaissances dans différents domaines** qui concerne les affaires et la manière de d’entreprendre.
 
-Dans ce cadre, nous organisons ** des formations juridiques** sur mesure au profit des organisations, des entités sportives et des entités fédérées <em>(Communes, CPAS, Province, Région, État fédéral…)meow</em>.
+Dans ce cadre, nous organisons ** des formations juridiques** sur mesure au profit des organisations, des entités sportives et des entités fédérées <em>(Communes, CPAS, Province, Région, État fédéral…)</em>.
 
 Et des ** consultations informatives** sur le domaine de l’entrepreneuriat, l’ingénierie organisationnelle et financière, l’optimisation, accès et la gestion de la propriété (im)mobilière.
-** <em>« L’organisation est facteur de productivité »**meow</em>.
+** <em>« L’organisation est facteur de productivité »**</em>.
 
 Combien de fois, nous est-il arrivé de payer un ** supplément de facture** car nous ne savons plus où avons-nous rangé le courrier ou la facture ? L’objectif du rangement est de pouvoir disposer de l’élément rangé au moment où cela est nécessaire.
 

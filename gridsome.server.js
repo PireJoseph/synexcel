@@ -14,7 +14,6 @@ module.exports = function(api) {
       options.subtitle = options.subtitle || "";
     }
     if (options.internal.typeName === "SectionPage") {
-      options.featured = options.featured ? options.featured : false;
       options.tags =
         typeof options.tags === "string"
           ? options.tags.split(",").map((string) => string.trim())

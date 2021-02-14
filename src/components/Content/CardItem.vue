@@ -5,7 +5,7 @@
       :id="record.id"
     >
       <g-link :to="record.path" class="post-card-image-link">
-        <div
+        <!-- <div
           v-if="record.featured"
           class="absolute top-0 right-0 pr-4 pt-4 z-10"
         >
@@ -14,7 +14,7 @@
           >
             <font-awesome :icon="['fas', 'star']" size="xs"></font-awesome>
           </span>
-        </div>
+        </div> -->
         <g-image
           :src="record.image"
           :alt="record.title"
@@ -39,9 +39,7 @@
 
           <div class="text-xs leading-none absolute bottom-0 pb-6">
             <p>
-              <time :datetime="record.datetime">{{ record.humanTime }}</time>
-              &nbsp;&bull;&nbsp;
-              {{ record.timeToRead }} min read
+              <time :datetime="record.datetime">{{ record.description }}</time>
             </p>
           </div>
         </g-link>

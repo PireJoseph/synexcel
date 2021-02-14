@@ -2,18 +2,15 @@
 title: STAGES
 id: page1
 description: STAGES DE DÉTECTION DE TALENTS DE VACANCES ET CONGÉS
-tags: stage, sports, performance
+tags: stage, sports, initiation
 order: 1
-excerpt: Lorem markdownum aptos pes, Inachidos caput corrumpere! Vincere ferocia arva.
-created: 2019-01-10
 image: ../../static/uploads/stage.jpg
 image_caption: Photo by Josh Spires on Unsplash
-featured: true
 ---
 
-## STAGES SPORTIFS ET DE LOISIRS DE CONGÉS
+## STAGES DE CONGES SCOLAIRES
 
-![Stages congés](../../static/uploads/stage1.jpg)
+![Sports et loisirs](../../static/uploads/stage1.jpg)
 
 Les stages sportifs et de loisirs ** de congés scolaires** sont des moments ** de détente.** Le but est de s’amuser et d’éveiller le sens de ** la créativité **dans le respect de l’autre en compagnie de nos encadrants passionnés.
 
@@ -25,20 +22,20 @@ Multisports - Sports de Combats – Tennis – Football – Sciences – Le Grim
 
 Outre le but ludique, d’apprentissage récréative, si vous le souhaitez, nous avons une équipe formée à la détection et à la gestion du talent qui peut vous accompagner, dans la gestion de ce talent, et le cas échéant le diriger vers les structures adéquates.
 
-### MENU
+### FAITES VOTRE CHOIX
 
-| INTITULE            | LIEU        | GARDERIES |
-| ------------------- | ----------- | --------- |
-| MULTISPORTS         | LLN - Wavre | AM        |
-| SYNEXCEL ATHLÉTISME | LLN - Wavre | 8H - 9H   |
-| TAEKWONDO           | LLN - Wavre |           |
-| CARDIO-BOXING       | LLN - Wavre |           |
-| TAI-JITSU           | LLN - Wavre | PM        |
-| FOOTBALL            | LLN - Wavre | 16H - 19H |
-| MUSIQUE ET CHANT    | LLN - Wavre |           |
-| THEATRE ET IMPRO    | LLN - Wavre |           |
-| ART PLASTIQUE       | LLN - Wavre |           |
-| ECHECS              | LLN - Wavre |           |
+| INTITULE            | LIEU        |
+| ------------------- | ----------- | 
+| MULTISPORTS         | LLN - Wavre | 
+| SYNEXCEL ATHLÉTISME | LLN - Wavre | 
+| TAEKWONDO           | LLN - Wavre |           
+| CARDIO-BOXING       | LLN - Wavre |           
+| TAI-JITSU           | LLN - Wavre |  
+| FOOTBALL            | LLN - Wavre |  
+| MUSIQUE ET CHANT    | LLN - Wavre |           
+| THEATRE ET IMPRO    | LLN - Wavre |           
+| ART PLASTIQUE       | LLN - Wavre |           
+| ECHECS              | LLN - Wavre |           
 
 ### MATERIEL
 
@@ -48,30 +45,34 @@ Outre le but ludique, d’apprentissage récréative, si vous le souhaitez, nous
 - Tenue sportive adaptée
 - Matériel spécifique (voir mail)
 
+### GARDERIE
+- 8H - 9H 
+- 16H - 19H 
+
 N’hésitez pas à nous contacter à ce sujet afin d’obtenir plus amples informations.
 
-## STAGES SPORTIFS ET DE LOISIRS DE VACANCES
+## STAGES DE VACANCES SCOLAIRES
 
 ![Stages vacances](../../static/uploads/stage2.jpg)
 
-### MENU
+### FAITES VOTRE CHOIX
 
-| INTITULE             | LIEU        | GARDERIES |
-| -------------------- | ----------- | --------- |
-| BUSINESS & SPORTS    | LLN - Wavre | AM        |
-| INITIATION AU TENNIS | LLN - Wavre | 8h - 9h   |
-| CODAGE WEB ET SPORT  | LLN - Wavre |           |
-| TECHNO ET PSORTS     | LLN - Wavre | PM        |
-| MULTISPORTS          | LLN - Wavre | 16h - 18h |
-| SYNEXCEL ATHLETISME  | LLN - Wavre |           |
-| TAEKWONDO            | LLN - Wavre |           |
-| CARDIO-BOXING        | LLN - Wavre |           |
-| TAI-JITSU            | LLN - Wavre | PM        |
-| FOOTBALL             | LLN - Wavre | 16H - 19H |
-| MUSIQUE ET CHANT     | LLN - Wavre |           |
-| THEATRE ET IMPRO     | LLN - Wavre |           |
-| ART PLASTIQUE        | LLN - Wavre |           |
-| ECHECS               | LLN - Wavre |           |
+| INTITULE             | LIEU        | 
+| -------------------- | ----------- | 
+| BUSINESS & SPORTS    | LLN - Wavre | 
+| INITIATION AU TENNIS | LLN - Wavre | 
+| CODAGE WEB ET SPORT  | LLN - Wavre |           
+| TECHNO ET SPORTS     | LLN - Wavre |        
+| MULTISPORTS          | LLN - Wavre |
+| SYNEXCEL ATHLETISME  | LLN - Wavre |           
+| TAEKWONDO            | LLN - Wavre |           
+| CARDIO-BOXING        | LLN - Wavre |           
+| TAI-JITSU            | LLN - Wavre | 
+| FOOTBALL             | LLN - Wavre | 
+| MUSIQUE ET CHANT     | LLN - Wavre |           
+| THEATRE ET IMPRO     | LLN - Wavre |           
+| ART PLASTIQUE        | LLN - Wavre |           
+| ECHECS               | LLN - Wavre |           
 
 ### MATERIEL
 
@@ -81,19 +82,10 @@ N’hésitez pas à nous contacter à ce sujet afin d’obtenir plus amples info
 - Tenue sportive adaptée
 - Matériel spécifique
 
+### GARDERIE
+- 8H - 9H 
+- 16H - 19H 
+
 ## NOUS REJOINDRE
-
-![Catalogue de stages](../../static/uploads/stage3.jpg)
-
-> VOULEZ-VOUS DEVENIR **PARTENAIRES DE SYNEXCEL** ET INSCRIRE **VOTRE OFFRE DE STAGE ICI,** TRÈS SIMPLE, REMPLISSEZ LE FORMULAIRE DE CONTACT EN DECRIVANT VOTRE PROJET, ET NOS SERVICES VOUS CONTACTERONS POUR UN ÉVENTUELLE CONVENTION DE PARTENARIAT !
-
-Nous voulons être **la référence du sport en Belgique** en ce qui concerne les stages, la détection de talents, le laboratoire d’excellence et de management sportif.
-
-### EN QUELQUES ETAPES
-
-1. Prise de **contact** via le formulaire
-2. **Analyse** de la demande
-3. Intégration du stage tel quel ou en collaboration avec d'autre **partenaires** en **synergie**
-4. Conclusion de la convention, **intégration** et mise en lumière
-
-Nous œuvrons continuellement pour apporter une offre de stage de qualité _en évitant les doublons_.
+Vous organisez un stage (ou une activité) de qualité ? 
+<a href="/nous-rejoindre/">**Rejoignez SYNEXCEL en complétant notre formulaire d'adhésion**</a>

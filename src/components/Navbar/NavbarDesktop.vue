@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="hidden md:block lg:block xl:block items-center justify-between flex-wrap container mx-auto py-3 z-20 dark:text-gray-400"
+    class="hidden lg:block xl:block items-center justify-between flex-wrap container mx-auto py-3 z-20 dark:text-gray-400"
   >
     <div class="flex-grow flex items-center w-auto mx-4">
       <div class="flex items-center flex-shrink-0 mr-6">
@@ -44,12 +44,16 @@
       </div>
 
       <div class="inline-block">
-        <ul class="list-none flex justify-center md:justify-end">
+        <ul class="list-none flex justify-center lg:justify-end">
           <li class="mr-6">
-            <font-awesome :icon="['fas', 'envelope']"></font-awesome>
+            <g-link title="contact" to="/contact/">
+              <font-awesome :icon="['fas', 'paper-plane']"></font-awesome>
+            </g-link>
           </li>
           <li class="mr-6">
-            <font-awesome :icon="['fas', 'shopping-cart']"></font-awesome>
+            <g-link title="nous rejoindre" to="/nous-rejoindre/">
+              <font-awesome :icon="['fas', 'user-plus']"></font-awesome>
+            </g-link>
           </li>
         </ul>
       </div>

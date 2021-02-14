@@ -1,28 +1,32 @@
 <template>
   <Layout>
-    <content-header :image="$page.sectionPage.image"></content-header>
+    <content-header
+      :image="$page.sectionPage.image"
+      :title="$page.sectionPage.title"
+      :sub="$page.sectionPage.description"
+    ></content-header>
 
     <div
       class="container pb-32 pt-10 sm:pxi-0 mx-auto overflow-x-hidden text-gray-800 dark:text-gray-500"
     >
       <div class="lg:mx-32 md:mx-16 sm:mx-8 mx-4 pt-8">
         <section class="post-header container mx-auto px-0 mb-16 text-center">
-          <h1
+          <!-- <h1
             class="text-gray-800 dark:text-gray-400 font-extrabold tracking-wider mb-6"
           >
             {{ $page.sectionPage.title }}
-          </h1>
-          <span class="tracking-wide text-sm">
-            <!-- <g-link class="font-medium" :to="$page.sectionPage.section.path">{{
+          </h1> -->
+          <!-- <span class="tracking-wide text-sm">
+            <g-link class="font-medium" :to="$page.sectionPage.section.path">{{
               $page.sectionPage.section.title
             }}</g-link 
-            >&nbsp;&middot;&nbsp;-->
+            >&nbsp;&middot;&nbsp;
             <time :datetime="$page.sectionPage.datetime">{{
               $page.sectionPage.humanTime
             }}</time>
             &nbsp;&middot;&nbsp;
             {{ $page.sectionPage.timeToRead }} min read
-          </span>
+          </span> -->
         </section>
       </div>
 
@@ -92,12 +96,8 @@
       path
       image(width:1600, height:800)
       image_caption
-      excerpt
       content
-      humanTime : created(format:"DD MMMM YYYY")
-      datetime : created(format:"ddd MMM DD YYYY hh:mm:ss zZ")
-
-      timeToRead
+      description
       tags
     }
 

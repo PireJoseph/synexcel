@@ -8,8 +8,8 @@
     <div class="container mx-auto">
       <div class="flex flex-wrap my-4">
         <FeaturedCard
-          v-if="$page.featured.totalCount > 0"
-          :records="$page.featured.edges"
+          v-if="$page.entries.totalCount > 0"
+          :records="$page.entries.edges"
         />
 
         <CardItem
@@ -24,20 +24,6 @@
 
 <page-query>
   query($page: Int) {
-    featured: allSectionPage(limit: 4, filter: { featured: { eq: true } }, sortBy:"order") {
-      totalCount
-      edges {
-        node {
-          id
-          title
-          image(width: 800)
-          path
-          timeToRead
-          humanTime: created(format: "DD MMM YYYY")
-          datetime: created
-        }
-      }
-    }
     entries: allSectionPage(perPage: 24, page: $page, sortBy:"order") @paginate {
       totalCount
       pageInfo {
@@ -50,10 +36,7 @@
           title
           image(width: 800)
           path
-          timeToRead
-          featured
-          humanTime: created(format: "DD MMM YYYY")
-          datetime: created
+          description
         }
       }
     }

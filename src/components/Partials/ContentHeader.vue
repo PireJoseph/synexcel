@@ -29,10 +29,6 @@ export default {
       type: String,
       default: null,
     },
-    description: {
-      type: String,
-      default: null,
-    },
     sub: {
       type: String,
       default: null,

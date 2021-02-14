@@ -20,11 +20,11 @@
               <div
                 class="featured-label absolute top-0 right-0 pr-10 pt-10 z-10"
               >
-                <span
+                <!-- <span
                   class="p-1 relative block text-center text-xs leading-tight bg-white border border-gray-300 text-black rounded-full"
                 >
                   <font-awesome :icon="['fas', 'star']"></font-awesome>Featured
-                </span>
+                </span> -->
               </div>
 
               <div class="post-card-content">
@@ -39,7 +39,7 @@
                 </h3>
               </div>
 
-              <div class="post-card-footer">
+              <!-- <div class="post-card-footer">
                 <p>
                   <time :datetime="edge.node.datetime">{{
                     edge.node.humanTime
@@ -47,7 +47,7 @@
                   &nbsp;&bull;&nbsp;
                   {{ edge.node.timeToRead }} min read
                 </p>
-              </div>
+              </div> -->
             </div>
           </g-link>
         </div>

@@ -8,15 +8,28 @@
           <h2 class="h1 font-black lg:text-6xl text-4xl">
             <Logo />
           </h2>
-          <p class="h5 font-sans font-bold lg:text-4xl text-2xl text-red-900">
+          <p
+            class="h5 font-sans font-bold lg:text-4xl text-2xl text-red-800 dark:text-red-500"
+          >
             {{ sub }}
           </p>
-          <p
-            class="hidden lg:block lg:my-8 font-sans font-bold text-black dark:text-white text-xl"
-          >
-            Spécialisé en stages, détection de talents, catalogue multisports,
-            laboratoire d’entraînement intensif et management sportif
-          </p>
+          <!-- <div class="font-bold w-64 flex flex-col mx-auto px-2 text-xs">
+            <p class="text-gray-700 dark:text-gray-200 lg:mb-2 text-left">
+              ORGANISATION DE STAGES
+            </p>
+            <p class="text-red-700 dark:text-red-400 mb-2 text-right">
+              DETECTION DE TALENTS
+            </p>
+            <p class="text-gray-700 dark:text-gray-200 mb-2 text-left">
+              CATALOGUE DE MULTISPORTS
+            </p>
+            <p class="text-red-700 dark:text-red-400 mb-2 text-right">
+              STRUCTURE D'EXCELLENCE
+            </p>
+            <p class="text-blue-900 dark:text-blue-200 text-center">
+              MANAGEMENT SPORTIF
+            </p>
+          </div> -->
         </div>
         <div>
           <SVGEvolution

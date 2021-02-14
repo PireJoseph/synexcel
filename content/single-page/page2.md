@@ -2,6 +2,7 @@
 title: NOUS REJOINDRE
 id: page2
 description: Nous avons tout à gagner à collaborer
+order: 2
 image: ../../static/uploads/nous-rejoindre.jpg
 image_caption: Photo by Josh Spires on Unsplash
 ---

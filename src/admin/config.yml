@@ -7,39 +7,28 @@ media_folder: "static/uploads"
 public_folder: "/uploads"
 
 collections:
-  - name: "section"
-    label: "Section"
-    folder: "content/section"
-    fields:
-      - { label: "Id", name: "id", widget: "string" }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Slug", name: "slug", widget: "string" }
-      - { label: "Description", name: "description", widget: "text" }
-      - { label: "Ordre", name: "order", widget: "number" }
-      - { label: "Image", name: "image", widget: "image" }
-      - { label: "Label image", name: "image_caption", widget: "string" }
-
   - name: "section-page"
-    label: "Page"
+    label: "Page Section"
     folder: "content/section-page"
-    create: true
+    create: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Id", name: "id", widget: "string" }
       - { label: "Description", name: "description", widget: "text" }
       - { label: "Tags", name: "tags", widget: "string" }
-      - {
-          label: "Section",
-          name: "section",
-          widget: "relation",
-          collection: "section",
-          valueField: "id",
-          displayFields: ["title"],
-          searchFields: ["title"],
-        }
       - { label: "Ordre", name: "order", widget: "number" }
-      - { label: "Extrait", name: "excerpt", widget: "string" }
-      - { label: "Créé le", name: "created", widget: "date" }
       - { label: "Image", name: "image", widget: "image" }
       - { label: "Label image", name: "image_caption", widget: "string" }
-      - { label: "Mis en avant", name: "featured", widget: "boolean" }
       - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "single-page"
+  label: "Page Additionnelle"
+  folder: "content/single-page"
+  create: false
+  fields:
+    - { label: "Title", name: "title", widget: "string" }
+    - { label: "Id", name: "id", widget: "string" }
+    - { label: "Description", name: "description", widget: "text" }
+    - { label: "Image", name: "image", widget: "image" }
+    - { label: "Label image", name: "image_caption", widget: "string" }
+    - { label: "Body", name: "body", widget: "markdown" }

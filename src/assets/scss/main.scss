@@ -320,6 +320,18 @@ table {
   }
 }
 
+/* FORMS */
+input[type="email"],
+input[type="text"],
+input[type="phone"],
+textarea {
+  @apply bg-gray-100 dark:bg-gray-800 border-gray-200 dark:border-gray-700 rounded;
+}
+
+button[type="submit"] {
+  @apply bg-gray-200 dark:bg-gray-900 rounded py-2 px-8 text-gray-800 dark:text-gray-200 border border-gray-200 dark:border-gray-700;
+}
+
 /* Generated with http://k88hudson.github.io/syntax-highlighting-theme-generator/www */
 /* http://k88hudson.github.io/react-markdocs */
 /**

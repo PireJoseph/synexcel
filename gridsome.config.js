@@ -60,6 +60,13 @@ module.exports = {
       },
     },
     {
+      use: "@gridsome/source-filesystem",
+      options: {
+        typeName: "Gallerie",
+        path: "./content/gallerie/*.md",
+      },
+    },
+    {
       use: "gridsome-plugin-svg",
     },
     {

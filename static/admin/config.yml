@@ -33,3 +33,13 @@ collections:
       - { label: "Image", name: "image", widget: "image" }
       - { label: "Label image", name: "image_caption", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "gallerie"
+    label: "Gallerie"
+    folder: "content/gallerie"
+    create: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Id", name: "id", widget: "string" }
+      - { label: "Ordre", name: "order", widget: "number" }
+      - { label: "Image", name: "image", widget: "image" }

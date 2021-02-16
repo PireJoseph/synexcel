@@ -6,7 +6,7 @@
         :src="image"
         width="1400"
         height="400"
-        class="object-cover absolute -z-10 h-full w-full"
+        class="header-image object-cover absolute -z-10 h-full w-full opacity-50 "
       ></g-image>
 
       <slot>
@@ -41,4 +41,8 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.header-image {
+  filter: blur(2px);
+}
+</style>

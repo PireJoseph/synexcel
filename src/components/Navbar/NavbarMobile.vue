@@ -1,5 +1,6 @@
 <template>
   <nav
+    id="navbar-mobile"
     class="block lg:hidden flex items-center justify-between flex-wrap container mx-auto py-4 dark:text-gray-400"
   >
     <div class="block flex-grow flex items-center w-auto mx-4">
@@ -64,3 +65,9 @@ query {
   }
 }
 </static-query>
+<style lang="scss" scoped>
+#navbar-mobile {
+  height: 64px;
+  min-height: 64px;
+}
+</style>

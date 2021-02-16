@@ -2,13 +2,18 @@
   "headerNavigation": [],
   "footerNavigation": [
     {
-      "name": "Contact",
-      "link": "/contact",
+      "name": "A propos",
+      "link": "/a-propos",
       "external": false
     },
     {
-      "name": "A propos",
-      "link": "/a-propos",
+      "name": "Gallerie",
+      "link": "/gallerie",
+      "external": false
+    },
+    {
+      "name": "Contact",
+      "link": "/contact",
       "external": false
     },
     {

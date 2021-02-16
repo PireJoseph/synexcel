@@ -1,5 +1,6 @@
 <template>
   <nav
+    id="navbar-desktop"
     class="hidden lg:block xl:block items-center justify-between flex-wrap container mx-auto py-3 z-20 dark:text-gray-400"
   >
     <div class="flex-grow flex items-center w-auto mx-4">
@@ -45,6 +46,11 @@
 
       <div class="inline-block">
         <ul class="list-none flex justify-center lg:justify-end">
+          <li class="mr-6">
+            <g-link title="gallery" to="/gallerie/">
+              <font-awesome :icon="['fa', 'images']"></font-awesome>
+            </g-link>
+          </li>
           <li class="mr-6">
             <g-link title="contact" to="/contact/">
               <font-awesome :icon="['fas', 'paper-plane']"></font-awesome>
@@ -105,3 +111,9 @@ query {
   }
 }
 </static-query>
+
+<style lang="scss" scoped>
+#navbar-desktop {
+  height: 64px;
+}
+</style>

@@ -17,6 +17,30 @@
               {{ page.node.title }}
             </g-link>
           </li>
+
+          <br />
+          <hr />
+          <br />
+
+          <div>
+            <ul class="list-none flex justify-center lg:justify-end">
+              <li class="mr-6">
+                <g-link title="gallery" to="/gallerie/">
+                  <font-awesome :icon="['fa', 'images']"></font-awesome>
+                </g-link>
+              </li>
+              <li class="mr-6">
+                <g-link title="contact" to="/contact/">
+                  <font-awesome :icon="['fas', 'paper-plane']"></font-awesome>
+                </g-link>
+              </li>
+              <li class="">
+                <g-link title="nous rejoindre" to="/nous-rejoindre/">
+                  <font-awesome :icon="['fas', 'user-plus']"></font-awesome>
+                </g-link>
+              </li>
+            </ul>
+          </div>
         </ul>
       </div>
     </div>

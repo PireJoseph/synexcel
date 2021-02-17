@@ -22,17 +22,17 @@ import VFooter from "~/components/Partials/Footer.vue";
 export default {
   data: function() {
     return {
-      theme: "light"
+      theme: "dark",
     };
   },
   components: {
     Navbar,
-    VFooter
+    VFooter,
   },
   methods: {
     setTheme(mode) {
       this.theme = mode;
-    }
-  }
+    },
+  },
 };
 </script>

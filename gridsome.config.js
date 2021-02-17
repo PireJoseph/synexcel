@@ -7,6 +7,7 @@
 module.exports = {
   siteName: "SYNEXCEL",
   siteDescription: "SPORTS & MANAGEMENT",
+  siteUrl: "https://cocky-euclid-909892.netlify.app/",
   plugins: [
     {
       use: "gridsome-plugin-tailwindcss",
@@ -33,11 +34,18 @@ module.exports = {
           ],
         },
         presetEnvConfig: {},
-        shouldPurge: false,
+        shouldPurge: true,
         shouldImport: false,
         shouldTimeTravel: false,
         shouldPurgeUnusedKeyframes: true,
       },
+    },
+    {
+      use: '@gridsome/plugin-sitemap',
+      options: {}
+    },
+    {
+      use: 'gridsome-plugin-robots-txt',
     },
     {
       use: "gridsome-source-static-meta",

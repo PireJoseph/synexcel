@@ -28,10 +28,10 @@ Nous œuvrons continuellement pour apporter une offre de stage de qualité _en �
 <form
     action="https://formspree.io/f/meqpwelv"
     method="POST"
-    class="text-gray-900 dark:text-gray-100 w-96 mx-auto text-center py-16"
+    class="text-gray-900 dark:text-gray-100 w-full md:w-4/5 mx-auto text-center py-16"
 >
     <div class="mb-6">
-        <label class="block w-full mb-1">
+        <label class="block w-full">
             Nom, Prénom:
         </label>
         <input
@@ -43,86 +43,86 @@ Nous œuvrons continuellement pour apporter une offre de stage de qualité _en �
         />
     </div>
     <div class="mb-6">
-        <label class="block w-full mb-1">
+        <label class="block w-full">
             Numéro de téléphone:
         </label>
         <input
             type="phone"
             id="phone"
             name="_phone"
-            class="w-full border"
+            class="w-full"
             required
         />
     </div>
     <div class="mb-6">
-        <label class="block w-full mb-1">
+        <label class="block w-full">
             Email:
         </label>
         <input
             type="email"
             id="email"
             name="_email"
-            class="w-full border"
+            class="w-full"
             required
         />
     </div>
     <div class="mb-6">
-        <label class="block w-full mb-1">
+        <label class="block w-full">
             Nom de l'association et personne de contact :
         </label>
         <input
             type="text"
             id="association"
             name="_association"
-            class="w-full border"
+            class="w-full"
             required
         />
     </div>
     <div class="mb-6">
-        <label class="block w-full mb-1">
+        <label class="block w-full">
             Type d'activité:
         </label>
         <input
             type="text"
             id="type"
             name="_type"
-            class="w-full border"
+            class="w-full"
             required
         />
     </div>
     <div class="mb-4">
-        <label class="block w-full mb-1">
+        <label class="block w-full">
             Nom de l'activité:
         </label>
                 <input
             type="text"
             id="name"
             name="_name"
-            class="w-full border"
+            class="w-full"
             required
         />
     </div>
     <div class="mb-6">
-        <label class="block w-full mb-1">
+        <label class="block w-full">
             Résumé de l'activité:
         </label>
         <textarea
             id="resume"
             name="_resume"
             rows="10"
-            class="w-full border"
+            class="w-full"
             required
         ></textarea>
     </div>
     <div class="mb-6">
-        <label class="block w-full mb-1">
+        <label class="block w-full">
             Période de collaboration envisagée:
         </label>
         <input
             type="text"
             id="duration"
             name="_duration"
-            class="w-full border"
+            class="w-full"
             required
         />
     </div>

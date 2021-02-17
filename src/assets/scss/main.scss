@@ -325,11 +325,11 @@ input[type="email"],
 input[type="text"],
 input[type="phone"],
 textarea {
-  @apply bg-gray-100 dark:bg-gray-800 border-gray-200 dark:border-gray-700 rounded;
+  @apply bg-gray-100 dark:bg-gray-800 rounded mt-2;
 }
 
 button[type="submit"] {
-  @apply bg-gray-200 dark:bg-gray-900 rounded py-2 px-8 text-gray-800 dark:text-gray-200 border border-gray-200 dark:border-gray-700;
+  @apply bg-gray-200 dark:bg-gray-900 rounded py-2 px-8 text-gray-800 dark:text-gray-200 mt-2;
 }
 
 /* Generated with http://k88hudson.github.io/syntax-highlighting-theme-generator/www */

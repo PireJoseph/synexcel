@@ -10,7 +10,7 @@ image_caption: Photo by Josh Spires on Unsplash
 <form
     action="https://formspree.io/f/mzbkqdak"
     method="POST"
-    class="text-gray-900 dark:text-gray-100 w-96 mx-auto text-center py-16"
+    class="text-gray-900 dark:text-gray-100 w-full md:w-4/5 mx-auto text-center py-16"
 >
     <div class="mb-6">
         <label class="block w-full mb-1">
@@ -20,7 +20,7 @@ image_caption: Photo by Josh Spires on Unsplash
             type="text"
             id="reply_to"
             name="_replyto"
-            class="w-full border"
+            class="w-full"
             required
         />
     </div>
@@ -29,10 +29,10 @@ image_caption: Photo by Josh Spires on Unsplash
             Message:
         </label>
         <textarea
-            id="reply_to"
+            id="message"
             name="message"
             rows="10"
-            class="w-full border"
+            class="w-full"
             required
         ></textarea>
     </div>

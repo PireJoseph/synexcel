@@ -24,7 +24,12 @@
     {
       "name": "Sitemap",
       "link": "/sitemap.xml",
-      "external": false
+      "external": true
+    },
+    {
+      "name": "Robots",
+      "link": "/robots.txt",
+      "external": true
     }
   ]
 }
